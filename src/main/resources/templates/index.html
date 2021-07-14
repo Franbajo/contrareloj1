@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="plantilla/template :: head">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<header class= "header2">
+	        <div class="contendor">
+            <div class="contendor-titulo">
+                <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="2s">Francisco Javier Palma</h1>
+            </div>
+        </div>
+			<div class="panel-heading">
+			</div>
+	
+	</header>
+<header th:replace="plantilla/template :: header"></header>
+
+			<div class="contendor"><h1>Bienvenido</h1></div>
+			<ul class="list-group">
+			  <li class="list-group-item"><a href="/clienteslistar">Clientes</a></li>
+			  <li class="list-group-item">Cosa 1</li>
+			</ul>
+
+	   
+            <div class="contenedor">
+                <div class="llamada-texto">
+                    <a>
+                        <button class="wow heartBeat" data-wow-duration="2s" data-wow-delay=".5s">
+                            Deseo crear mi página
+                        </button> 
+                    </a>
+                </div>
+            </div>
+      
+<footer th:replace="plantilla/template :: footer"></footer>
+</body>
+</html>
